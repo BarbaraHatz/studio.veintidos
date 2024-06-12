@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Imagen y Texto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        function toggleMenu() {
+            document.querySelector('nav ul').classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="sobrenosotras.html"><button class="btn-lila">Nosotras</button></a></li>
+                <li><a href="servicios.html"><button class="btn-lila">Servicios</button></a></li>
+                <li><a href="contacto.html"><button class="btn-lila">Contácto</button></a></li>
+                <li><a href="galeria.html"><button class="btn-lila">Galería</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="contenido">
+            <div class="logo-container">
+                <img src="imagenes/studioveintidosimg.jpeg" alt="Logo de Studio Veintidós" class="studioveintidosimg">
+            </div>
+            <div class="texto">
+                <p>
+                    Somos una agencia enfocada en ayudar a comunicar de forma visual tu marca enfocada al mundo de la moda. 
+                    Ofrecemos varios servicios que se complementan para generar un mayor alcance en todas las plataformas. 
+                    Su principal enfoque es crear un servicio 360 en donde se genere estilismo, producciones, creación de contenido, 
+                    asesorías y visual merchandising.
+                </p>
+            </div>
+        </section>
+        <section class="video-container">
+            <video controls>
+                <source src="imagenes/video.mp4" type="video/mp4">
+                <source src="imagenes/video.ogg" type="video/ogg">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/stveintidos/">Síguenos en Instagram</a>
+    </footer>
+    <a href="https://wa.me/1234567890" class="whatsapp-logo" target="_blank">
+        <img src="imagenes/logo-whatsapp.png" alt="WhatsApp Logo">
+    </a>
+</body>
+</html>
+
+
+
+   

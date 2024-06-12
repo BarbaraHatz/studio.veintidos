@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="sobrenosotras.html"><button class="btn-lila">Nosotras</button></a></li>
+                <li><a href="servicios.html"><button class="btn-lila">Servicios</button></a></li>
+                <li><a href="contacto.html"><button class="btn-lila">Contácto</button></a></li>
+                <li><a href="galeria.html"><button class="btn-lila">Galería</button></a></li>
+                <li><a href="index.html"><button class="btn-lila">Home</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contenido">
+            <div class="logo-container">
+                <img src="imagenes/imagenquetodavianotienelugar.jpeg" alt="Logo de Studio Veintidós" class="imagenquetodavianotienelugar">
+            </div>
+            <div class="texto">
+                <form>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+<footer>
+    <a href="https://www.instagram.com/stveintidos/">Síguenos en Instagram</a>
+</footer>
+
+<a href="https://wa.me/1234567890" class="whatsapp-logo" target="_blank">
+    <img src="imagenes/logo-whatsapp.png" alt="WhatsApp Logo">
+</a>
+
+</body>
+</body>
+</html>
